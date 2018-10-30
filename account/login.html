@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+
+    <title>
+      CS3500 Final Project
+    </title>
+
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <link rel="stylesheet"
+      href="../common.css">
+  </head>
+
+  <body>
+    <div id="app-container">
+      <form id="login-form"
+        onsubmit="return onLoginFormSubmit();"
+        action="javascript:onLoginFormAction();">
+        <div>
+          <label for="username">
+            username:
+          </label>
+
+          <input id="username-control"
+            name="username"
+            type="text"
+            required>
+        </div>
+
+        <div>
+          <label for="password">
+            password:
+          </label>
+
+          <input id="password-control"
+            name="password"
+            type="password"
+            required>
+        </div>
+
+        <input type="submit"
+          value="Login">
+
+        <a href="./create-account.html">
+          Need to create an account?
+        </a>
+      </form><!-- login-form -->
+    </div><!-- app-container -->
+  </body>
+</html>

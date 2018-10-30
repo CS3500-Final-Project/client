@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+
+    <title>
+      Create Account
+    </title>
+
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <link rel="stylesheet"
+      href="../common.css">
+  </head>
+
+  <body>
+    <div id="app-container">
+      <form id="create-account-form"
+        onsubmit="return onCreateAccountFormSubmit();"
+        action="javascript:onCreateAccountFormAction();">
+        <div>
+          <label for="username">
+            enter username:
+          </label>
+
+          <input id="username-control"
+            name="username"
+            type="text"
+            required>
+        </div>
+
+        <div>
+          <label for="password1">
+            enter password:
+          </label>
+
+          <input id="password1-control"
+            name="password1"
+            type="password"
+            required>
+        </div>
+
+        <div>
+          <label for="password2">
+            confirm password:
+          </label>
+
+          <input id="password2-control"
+            name="password2"
+            type="password"
+            required>
+        </div>
+
+        <!--
+          result display?
+          for errors and such
+        -->
+
+
+        <input type="submit"
+          value="Create Account">
+
+        <a href="./login.html">
+          Already have an account?
+        </a>
+
+        <!--
+          other possible fields:
+            confirm password
+            email
+        -->
+        <!--
+        <div>
+          <label>
+            prop
+          </label>
+
+          <input id=""
+            name=""
+            type="">
+        </div>
+        -->
+      </form><!-- create-account-form -->
+    </div><!-- app-container -->
+  </body>
+</html>
